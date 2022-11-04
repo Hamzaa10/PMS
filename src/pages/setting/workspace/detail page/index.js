@@ -28,6 +28,7 @@ const Detailpage = () => {
                             }
                         </div>
                         <Image title="add or change logo" img={img} />
+                        <Image title="add or change logo" img={img} />
                     </div>
                 </div>
             </div>
