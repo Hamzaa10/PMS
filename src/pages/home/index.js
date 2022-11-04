@@ -13,7 +13,7 @@ const Home = () => {
       <div className={style.display}>
         <Sidebar />
         <div className={style.data}>
-          <Navbar title="Projects" />
+          <Navbar title="Projdsffects" />
           <Tabs
             title1="BOX"
             title2="LIST"
