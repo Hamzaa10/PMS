@@ -1,0 +1,15 @@
+import React from 'react'
+import style from './textarea.module.scss'
+
+const Textarea = (props) => {
+  return (
+    <div className={style.container}>
+      <div className={style.left}>
+      <label className={style.label} htmlFor="">{props.lable}</label>
+      </div>
+      <input className={style.input} type="name"/>
+    </div>
+  )
+}
+
+export default Textarea

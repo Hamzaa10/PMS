@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    text-align: center;
+    margin: 20px 30px;
+    .para{
+        font-weight: 275;
+        font-size: 12px;
+    }
+    .para1{
+        background-color: #f5f5f5;
+        padding: 0 10px;
+        border-radius: 4px;
+        text-align: center;
+    }
+}
