@@ -39,7 +39,5 @@ export default Detailpage
 
 
 const inputData = [
-    { lable: "WORK SPACE NAME" },
-    { lable: "NO. OF MEMBERS" },
-    { lable: "FONT" }
+    { lable: "WORK SPACE NAME" }
 ]
