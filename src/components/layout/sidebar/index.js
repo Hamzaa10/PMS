@@ -2,6 +2,7 @@ import React from 'react'
 import style from './sidebar.module.scss'
 
 import img from '../../../assets/logo-removebg-preview.png'
+import { Link } from 'react-router-dom'
 
 const Sidebar = () => {
   return (
@@ -10,9 +11,9 @@ const Sidebar = () => {
         <img src={img} alt="" />
       </div>
       <ul>
-        <a href="/">Home</a>
-        <a href="/qaboard">QA Board</a>
-        <a href="/setting">Settings</a>
+        <Link to="/">Home</Link>
+        <Link to="/members">Members</Link>
+        <Link to="/setting">Settings </Link>
       </ul>
     </div>
   )

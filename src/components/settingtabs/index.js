@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import style from './settingtabs.module.scss'
 
@@ -6,9 +7,9 @@ const SettingTabs = (props) => {
     return (
         <div className={style.container}>
             <div className={style.tabs}>
-                <a className={style.link} href="/">{props.title1}</a>
-                <a className={style.link} href="/">{props.title2}</a>
-                <a className={style.link1} href="/">{props.title3}</a>
+                <Link className={style.link} to="/setting">{props.title1}</Link>
+                <Link className={style.link} to="/members">{props.title2}</Link>
+                <Link className={style.link1} to="/workspace">{props.title3}</Link>
             </div>
         </div>
     )

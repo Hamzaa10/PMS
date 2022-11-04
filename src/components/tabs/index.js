@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import style from './tabs.module.scss'
 
@@ -6,14 +7,14 @@ const Tabs = (props) => {
     return (
         <div className={style.container}>
             <div className={style.tabs}>
-                <a className={style.active} href="/">{props.title1}</a>
-                <a className={style.link} href="/">{props.title2}</a>
-                <a className={style.link} href="/">{props.title3}</a>
-                <a className={style.link} href="/">{props.title4}</a>
-                <a className={style.link} href="/">{props.title5}</a>
-                <a className={style.link} href="/">{props.title6}</a>
-                <a className={style.link} href="/">{props.title7}</a>
-                <a className={style.link1} href="/">{props.title8}</a>
+                <Link className={style.link} to="/">{props.title1}</Link>
+                <Link className={style.link} to="/">{props.title2}</Link>
+                <Link className={style.link} to="/">{props.title3}</Link>
+                <Link className={style.link} to="/">{props.title4}</Link>
+                <Link className={style.link} to="/">{props.title5}</Link>
+                <Link className={style.link} to="/">{props.title6}</Link>
+                <Link className={style.link} to="/">{props.title7}</Link>
+                <Link className={style.link1} to="/">{props.title8}</Link>
             </div>
             <div className={style.btn}>
                 <button className={style.button}>Import</button>
