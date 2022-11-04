@@ -5,6 +5,7 @@ import Members from '../pages/setting/members';
 import MySetting from '../pages/setting/my-setting';
 import Workspace from '../pages/setting/workspace';
 import Detailpage from '../pages/setting/workspace/detail page';
+import Workload from '../pages/workload';
 
 
 const Routing = () => {
@@ -17,6 +18,7 @@ const Routing = () => {
           <Route path="/setting" element={<MySetting />} />
           <Route path='/workspace' element={<Workspace />} />
           <Route path='/detailpage' element={<Detailpage />} />
+          <Route path='/workload' element={<Workload />} />
         </Routes>
       </BrowserRouter>
     </div>
