@@ -1,5 +1,5 @@
 import React from 'react'
-import Detailpage from './pages/setting/workspace/detail page'
+// import Detailpage from './pages/setting/workspace/detail page'
 // import Workspace from './pages/setting/workspace'
 // import Head from './components/list head'
 // import Textfeild from './components/textfeild'
@@ -11,15 +11,15 @@ import Detailpage from './pages/setting/workspace/detail page'
 // import Pagination from './components/pagination'
 // import Sidebar from './components/layout/sidebar'
 // import Home from './pages/home'
-import Navbar from './components/layout/navbar'
+// import Navbar from './components/layout/navbar'
 // import Button from './components/button'
-import Card from './components/card'
+// import Card from './components/card'
 import Routing from './routes'
 
 function App() {
   return (
     <div>
- <Routing/>
+      <Routing />
     </div>
   )
 }
