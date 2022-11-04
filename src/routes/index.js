@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Routes, Route,} from "react-router-dom";
-import Home from '../pages/home'
-import MySetting from '../pages/setting/my-setting'
+import Home from '../pages/home';
+import MySetting from '../pages/setting/my-setting';
 
 
 const Routing = () => {
@@ -11,7 +11,6 @@ const Routing = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/setting" element={<MySetting />} />
-
         </Routes>
       </BrowserRouter>
     </div>
