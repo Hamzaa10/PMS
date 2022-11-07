@@ -6,5 +6,14 @@
     }
     .data{
         flex: 1;
+        .tabs{
+            display: flex;
+            justify-content: space-between;
+        }
+        .border{
+            border-right: 1px solid #E9E7E7;
+            width: 192px;
+            margin-bottom: 15px;
+        }
     }
 }

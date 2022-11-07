@@ -7,12 +7,12 @@ import img2 from '../../assets/image2.png'
 import img3 from '../../assets/image3.png'
 import img4 from '../../assets/add-user.png'
 
-const Card = (props) => {
+const Card = ({title,Details, Add}) => {
     return (
         <div className={style.container}>
             <div className={style.name}>
-                <p className={style.p1}>{props.title}</p>
-                <p className={style.p2}>Details</p>
+                <p className={style.p1}>{title}</p>
+                <p className={style.p2}>{Details}</p>
             </div>
             <div className={style.progress1}>
                 <div className={style.same}>
@@ -76,7 +76,7 @@ const Card = (props) => {
                     <img className={style.img} src={img3} alt="" />
                     <img className={style.img} src={img4} alt="" />
                     <div className={style.add}>
-                        <p className={style.para}>Add people</p>
+                        <p className={style.para}>{Add}</p>
                     </div>
                 </div>
             </div>

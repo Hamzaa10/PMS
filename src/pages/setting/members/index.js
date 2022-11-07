@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../../../components/layout/navbar'
 import Sidebar from '../../../components/layout/sidebar'
-import Head from '../../../components/list head'
 import Items from '../../../components/list item'
 import SettingTabs from '../../../components/settingtabs'
 import Textfeild from '../../../components/textfeild'
@@ -22,12 +21,7 @@ const Members = () => {
                         title3="WORKSPACE"
                     />
                     <Textfeild />
-                    <Head />
-                    {
-                        itemData.map(({ number, role, status }) => (
-                            <Items number={number} role={role} status={status} />
-                        ))
-                    }
+                    <Items />
                     <Pagination />
                 </div>
             </div>

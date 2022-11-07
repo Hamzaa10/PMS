@@ -1,0 +1,17 @@
+.container {
+    margin: 15px 0 0 30px;
+    display: flex;
+    align-items: center;
+    .img {
+        margin-right: 20px;
+        width: 35px;
+    }
+    .para1 {
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .para2 {
+        font-weight: 300;
+        font-size: 11px;
+    }
+}

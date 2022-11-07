@@ -26,8 +26,8 @@ const ProjectName = () => {
           />
           <div className={style.card}>
             {
-              cardData.map(({ title }) => (
-                <Card title={title} />
+              cardData.map(({ title, Details, Add }) => (
+                <Card title={title} Details={Details} Add={Add} />
               ))
             }
           </div>
@@ -44,12 +44,12 @@ export default ProjectName
 
 
 const cardData = [
-  { title: "Milstone Name" },
-  { title: "Milstone Name" },
-  { title: "Milstone Name" },
-  { title: "Milstone Name" },
-  { title: "Milstone Name" },
-  { title: "Milstone Name" },
-  { title: "Milstone Name" },
-  { title: "Milstone Name" }
+  { title: "Milstone Name", Details: "Details", Add: "Add People" },
+  { title: "Milstone Name", Details: "Details", Add: "Add People" },
+  { title: "Milstone Name", Details: "Details", Add: "Add People" },
+  { title: "Milstone Name", Details: "Details", Add: "Add People" },
+  { title: "Milstone Name", Details: "Details", Add: "Add People" },
+  { title: "Milstone Name", Details: "Details", Add: "Add People" },
+  { title: "Milstone Name", Details: "Details", Add: "Add People" },
+  { title: "Milstone Name", Details: "Details", Add: "Add People" }
 ]

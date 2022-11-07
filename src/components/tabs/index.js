@@ -8,13 +8,13 @@ const Tabs = (props) => {
         <div className={style.container}>
             <div className={style.tabs}>
                 <Link className={style.link} to="/">{props.title1}</Link>
-                <Link className={style.link} to="/">{props.title2}</Link>
-                <Link className={style.link} to="/">{props.title3}</Link>
-                <Link className={style.link} to="/">{props.title4}</Link>
-                <Link className={style.link} to="/">{props.title5}</Link>
+                <Link className={style.link} to="">{props.title2}</Link>
+                <Link className={style.link} to="">{props.title3}</Link>
+                <Link className={style.link} to="">{props.title4}</Link>
+                <Link className={style.link} to="">{props.title5}</Link>
                 <Link className={style.link} to="/workload">{props.title6}</Link>
-                <Link className={style.link} to="/">{props.title7}</Link>
-                <Link className={style.link1} to="/">{props.title8}</Link>
+                <Link className={style.link} to="">{props.title7}</Link>
+                <Link className={style.link1} to="">{props.title8}</Link>
             </div>
             <div className={style.btn}>
                 <button className={style.button}>Import</button>

@@ -26,8 +26,8 @@ const Home = () => {
           />
           <div className={style.card}>
             {
-              cardData.map(({ title }) => (
-                <Card title={title} />
+              cardData.map(({ title, Details, Add }) => (
+                <Card title={title} Details={Details} Add={Add} />
               ))
             }
           </div>
@@ -44,12 +44,12 @@ export default Home
 
 
 const cardData = [
-  { title: "Project Name" },
-  { title: "Project Name" },
-  { title: "Project Name" },
-  { title: "Project Name" },
-  { title: "Project Name" },
-  { title: "Project Name" },
-  { title: "Project Name" },
-  { title: "Project Name" }
+  { title: "Project Name", Details: "Details", Add: "Add People" },
+  { title: "Project Name", Details: "Details", Add: "Add People" },
+  { title: "Project Name", Details: "Details", Add: "Add People" },
+  { title: "Project Name", Details: "Details", Add: "Add People" },
+  { title: "Project Name", Details: "Details", Add: "Add People" },
+  { title: "Project Name", Details: "Details", Add: "Add People" },
+  { title: "Project Name", Details: "Details", Add: "Add People" },
+  { title: "Project Name", Details: "Details", Add: "Add People" }
 ]
