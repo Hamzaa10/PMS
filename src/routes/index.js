@@ -6,6 +6,7 @@ import MySetting from '../pages/setting/my-setting';
 import Workspace from '../pages/setting/workspace';
 import Detailpage from '../pages/setting/workspace/detail page';
 import Workload from '../pages/workload';
+import ProjectName from '../pages/project-name';
 
 
 const Routing = () => {
@@ -19,6 +20,7 @@ const Routing = () => {
           <Route path='/workspace' element={<Workspace />} />
           <Route path='/detailpage' element={<Detailpage />} />
           <Route path='/workload' element={<Workload />} />
+          <Route path='/projectname' element={<ProjectName />} />
         </Routes>
       </BrowserRouter>
     </div>

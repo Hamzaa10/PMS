@@ -11,8 +11,16 @@ const Workload = () => {
       <div className={style.display}>
         <Sidebar />
         <div className={style.data}>
-            <Navbar />
-            <Tabs />
+          <Navbar title="PROJECTS" />
+          <Tabs
+            title1="BOX"
+            title2="LIST"
+            title3="BOARD"
+            title4="TIMELINE"
+            title5="GANTT"
+            title6="WORKLOAD"
+            title7="STATUS"
+            title8="CALENDER" />
         </div>
       </div>
     </div>

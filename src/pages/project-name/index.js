@@ -13,7 +13,7 @@ const ProjectName = () => {
       <div className={style.display}>
         <Sidebar />
         <div className={style.data}>
-          <Navbar title="Project Name" />
+          <Navbar title="PROJECT NAME" />
           <Tabs
             title1="BOX"
             title2="LIST"
