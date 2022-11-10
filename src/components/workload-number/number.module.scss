@@ -1,7 +1,11 @@
 .container {
+    width: 118px;
     text-align: center;
-    // margin: 15px 0;
-    line-height: 53px;
+    margin: 27px 0 0 0;
+    height: 38px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     .para {
         font-weight: 600;
         font-size: 16px;

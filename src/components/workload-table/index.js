@@ -11,87 +11,87 @@ const Table = () => {
             <table>
                 <tbody>
                     <tr>
-                        <td className={style.first}>
+                        <td className={style.number}>
                             {
                                 profileData.map(({ index }) => (
                                     <Profile index={index} />
                                 ))
                             }
                         </td>
-                        <td className={style.second}>
+                        <td className={style.number}>
                             {
-                                profileData.map(({ index }) => (
-                                    <Number index={index} />
+                                numberData.map(({ index, number }) => (
+                                    <Number index={index} number={number} color={{ color: 'black' }} />
                                 ))
                             }
                         </td>
-                        <td className={style.third}>
+                        <td className={style.number}>
                             {
-                                profileData.map(({ index }) => (
-                                    <Number index={index} />
+                                numberData.map(({ index,number }) => (
+                                    <Number index={index} number={number} color={{ color: '#676A6F' }} />
                                 ))
                             }
                         </td>
-                        <td className={style.third}>
+                        <td className={style.number}>
                             {
-                                profileData.map(({ index }) => (
-                                    <Number index={index} />
+                                numberData.map(({ index, number }) => (
+                                    <Number index={index} number={number} color={{ color: '#5C9FDD' }} />
                                 ))
                             }
                         </td>
-                        <td className={style.second}>
+                        <td className={style.number}>
                             {
-                                profileData.map(({ index }) => (
-                                    <Number index={index} />
+                                numberData.map(({ index, number }) => (
+                                    <Number index={index} number={number} color={{ color: '#2D9274' }} />
                                 ))
                             }
                         </td>
-                        <td className={style.graph}>
+                        <td className={style.number}>
                             {
-                                profileData.map(({ index }) => (
-                                    <Graph index={index} />
+                                graphData.map(({ index, first, second, third }) => (
+                                    <Graph index={index} first={first} second={second} third={third} />
                                 ))
                             }
                         </td>
-                        <td className={style.graph}>
+                        <td className={style.number}>
                             {
-                                profileData.map(({ index }) => (
-                                    <Graph index={index} />
+                                graphData.map(({ index, first, second, third }) => (
+                                    <Graph index={index} first={first} second={second} third={third} />
                                 ))
                             }
                         </td>
-                        <td className={style.graph}>
+                        <td className={style.number}>
                             {
-                                profileData.map(({ index }) => (
-                                    <Graph index={index} />
+                                graphData.map(({ index, first, second, third }) => (
+                                    <Graph index={index} first={first} second={second} third={third} />
                                 ))
                             }
                         </td>
-                        <td className={style.graph}>
+                        <td className={style.number}>
                             {
-                                profileData.map(({ index }) => (
-                                    <Graph index={index} />
+                                graphData.map(({ index, first, second, third }) => (
+                                    <Graph index={index} first={first} second={second} third={third} />
                                 ))
                             }
                         </td>
-                        <td className={style.graph}>
+                        <td className={style.number}>
                             {
-                                profileData.map(({ index }) => (
-                                    <Graph index={index} />
+                                graphData.map(({ index, first, second, third }) => (
+                                    <Graph index={index} first={first} second={second} third={third} />
                                 ))
                             }
                         </td>
-                        <td className={style.graph}>
+                        <td className={style.number}>
                             {
-                                profileData.map(({ index }) => (
-                                    <Graph index={index} />
+                                graphData.map(({ index, first, second, third }) => (
+                                    <Graph index={index} first={first} second={second} third={third} />
                                 ))
                             }
                         </td>
                         <td>
                             {
-                                profileData.map(({ index }) => (
-                                    <Graph index={index} />
+                                graphData.map(({ index, first, second, third }) => (
+                                    <Graph index={index} first={first} second={second} third={third} />
                                 ))
                             }
                         </td>
@@ -103,6 +103,38 @@ const Table = () => {
 }
 
 export default Table
+
+const graphData = [
+    { index: "index", first: "05:00", second: "07:30", third: "06:00" },
+    { index: "index", first: "05:00", second: "07:30", third: "06:00" },
+    { index: "index", first: "05:00", second: "07:30", third: "06:00" },
+    { index: "index", first: "05:00", second: "07:30", third: "06:00" },
+    { index: "index", first: "05:00", second: "07:30", third: "06:00" },
+    { index: "index", first: "05:00", second: "07:30", third: "06:00" },
+    { index: "index", first: "05:00", second: "07:30", third: "06:00" },
+    { index: "index", first: "05:00", second: "07:30", third: "06:00" },
+    { index: "index", first: "05:00", second: "07:30", third: "06:00" },
+    { index: "index", first: "05:00", second: "07:30", third: "06:00" },
+    { index: "index", first: "05:00", second: "07:30", third: "06:00" },
+    { index: "index", first: "05:00", second: "07:30", third: "06:00" },
+    { index: "index", first: "05:00", second: "07:30", third: "06:00" }
+]
+
+const numberData = [
+    { index: "index", number: "40:00" },
+    { index: "index", number: "40:00" },
+    { index: "index", number: "40:00" },
+    { index: "index", number: "40:00" },
+    { index: "index", number: "40:00" },
+    { index: "index", number: "40:00" },
+    { index: "index", number: "40:00" },
+    { index: "index", number: "40:00" },
+    { index: "index", number: "40:00" },
+    { index: "index", number: "40:00" },
+    { index: "index", number: "40:00" },
+    { index: "index", number: "40:00" },
+    { index: "index", number: "40:00" }
+]
 
 const profileData = [
     { index: "index" },

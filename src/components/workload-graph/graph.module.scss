@@ -1,26 +1,29 @@
 .container {
-    margin: 23px 4px;
+    margin: 31px 4px 0;
+    width: 110px;
     .top {
         background: #E9E7E7;
         border-radius: 5px;
         height: 10px;
-        width: 70px;
+        width: 110px;
+        margin-bottom: 2px;
         .top_sec {
             background: #676A6F;
             border-radius: 5px;
-            width: 36px;
+            width: 60px;
             height: 10px;
         }
     }
     .mid {
+        margin-bottom: 2px;
         background: rgba(92, 159, 221, 0.49);
         border-radius: 5px;
         height: 10px;
-        width: 70px;
+        width: 110px;
         .mid_sec {
             background: rgba(92, 159, 221, 0.49);
             border-radius: 5px;
-            width: 59px;
+            width: 90px;
             height: 10px;
         }
     }
@@ -28,17 +31,17 @@
         background: #7BDDA2;
         border-radius: 5px;
         height: 10px;
-        width: 70px;
+        width: 110px;
         .bottom_sec {
             background: #2D9274;
             border-radius: 5px;
-            width: 44px;
+            width: 70px;
             height: 10px;
         }
     }
 }
 .para {
-    width: 70px;
+    width: 110px;
     font-weight: 600;
     font-size: 8px;
     color: #000000;

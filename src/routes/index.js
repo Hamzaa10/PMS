@@ -8,6 +8,7 @@ import Detailpage from '../pages/setting/workspace/detail page';
 import Workload from '../pages/workload';
 import ProjectName from '../pages/project-name';
 import Status from '../pages/status';
+import List from '../pages/list';
 
 
 const Routing = () => {
@@ -23,6 +24,7 @@ const Routing = () => {
           <Route path='/workload' element={<Workload />} />
           <Route path='/projectname' element={<ProjectName />} />
           <Route path='/status' element={<Status />} />
+          <Route path='/list' element={<List />} />
         </Routes>
       </BrowserRouter>
     </div>

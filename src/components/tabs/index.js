@@ -8,7 +8,7 @@ const Tabs = (props) => {
         <div className={style.container}>
             <div className={style.tabs}>
                 <Link className={style.link} to="/">{props.title1}</Link>
-                <Link className={style.link} to="">{props.title2}</Link>
+                <Link className={style.link} to="/list">{props.title2}</Link>
                 <Link className={style.link} to="">{props.title3}</Link>
                 <Link className={style.link} to="">{props.title4}</Link>
                 <Link className={style.link} to="">{props.title5}</Link>

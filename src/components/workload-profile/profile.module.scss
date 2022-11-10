@@ -1,17 +1,18 @@
 .container {
-    margin: 15px 0 0 30px;
+    margin: 22px 0 0 50px;
     display: flex;
     align-items: center;
+    width: 276px;
     .img {
         margin-right: 20px;
-        width: 35px;
+        width: 40px;
     }
     .para1 {
         font-weight: 600;
-        font-size: 13px;
+        font-size: 17px;
     }
     .para2 {
         font-weight: 300;
-        font-size: 11px;
+        font-size: 13px;
     }
 }

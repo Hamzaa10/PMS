@@ -11,7 +11,7 @@ import { useState } from 'react'
 
 const Members = () => {
     const [pageSize, setPageSize] = useState(10);
-    const [totalCount, setTotalCount] = useState();
+    const [totalCount] = useState();
     const [page, setPage] = useState(1);
 
 
