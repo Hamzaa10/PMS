@@ -6,6 +6,12 @@
     }
     .data{
         flex: 1;
+        .tabs{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 20px 30px 40px;
+        }
     }
     .card {
         display: grid;

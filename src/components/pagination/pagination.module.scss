@@ -1,53 +1,55 @@
-.container{
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .leftFlex {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    .left{
-        display: flex;
-        align-items: center;
-        h3{
-            font-weight: 700;
-            font-size: 12px;
-            color: rgba(0, 0, 0, 0.5);
-        }
-        .nmbr{
-            margin-left: 20px;
-            padding: 3px 5px;
-            border: 1px solid rgba(0, 0, 0, 0.5);
-            cursor: pointer;
-        }
+    .para {
+      font-weight: 700;
+      font-size: 13px;
+      color: #626262;
+      margin: 0 14px;
     }
-    .right{
-        display: flex;
-        align-items: center;
-        background-color: #f4f4f4;
-        padding: 12px;
-        h4{
-            font-weight: 700;
-            font-size: 12px;
-            color: rgba(0, 0, 0, 0.5);
-        }
-        .images{
-            display: flex;
-            align-items: center;
-            img{
-                width: 18px;
-            }
-            p{
-                padding: 0 5px;
-                color: rgba(0, 0, 0, 0.5);
-                font-size: 12px;
-            }
-            .arrow1{
-                margin-right: -13px;
-            }
-            .arrow2{
-                margin-left: -13px;
-            }
-            .active{
-                font-weight: bold;
-                color: black;
-            }
-        }
+    select {
+      margin: 0px 6px;
+      height: 29px;
+      padding: 0px 7px;
+      background-size: 10px;
+      background-position: 83% 47%;
     }
+  }
+
+  .rightFlex {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    margin-right: 15px;
+    padding: 10px;
+    .p {
+      font-weight: 600;
+      font-size: 13px;
+      color: #2d2d32;
+      margin-right: 10px;
+    }
+
+    img {
+      margin-left: 10px;
+      height: 12px;
+      width: 12px;
+      cursor: pointer;
+      @media (max-width: 840px) {
+        height: 9px;
+        width: 9px;
+        margin-left: 6px;
+      }
+    }
+
+    .p {
+      @media (max-width: 450px) {
+        display: none;
+      }
+    }
+  }
 }

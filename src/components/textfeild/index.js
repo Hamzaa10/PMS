@@ -1,7 +1,7 @@
 import React from 'react'
 
 import style from './textfeild.module.scss'
-import img from '../../assets/search.svg'
+import img from '../../assets/icons8-search.svg'
 
 const Textfeild = () => {
     return (

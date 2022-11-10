@@ -2,28 +2,38 @@ import React from 'react'
 import Sidebar from '../../components/layout/sidebar'
 import Navbar from '../../components/layout/navbar'
 import Card from '../../components/card/index'
-import Pagination from '../../components/pagination/index'
+import Pagination from '../../components/pagination'
 import Tabs from '../../components/tabs/index'
 
 import style from './projectname.module.scss'
+import { useState } from 'react'
+import ImportButton from '../../components/import button'
 
 const ProjectName = () => {
+  const [pageSize, setPageSize] = useState(10);
+  const [totalCount, setTotalCount] = useState();
+  const [page, setPage] = useState(1);
+
+
   return (
     <div className={style.container}>
       <div className={style.display}>
         <Sidebar />
         <div className={style.data}>
           <Navbar title="PROJECT NAME" />
-          <Tabs
-            title1="BOX"
-            title2="LIST"
-            title3="BOARD"
-            title4="TIMELINE"
-            title5="GANTT"
-            title6="WORKLOAD"
-            title7="STATUS"
-            title8="CALENDER"
-          />
+          <div className={style.tabs}>
+            <Tabs
+              title1="BOX"
+              title2="LIST"
+              title3="BOARD"
+              title4="TIMELINE"
+              title5="GANTT"
+              title6="WORKLOAD"
+              title7="STATUS"
+              title8="CALENDER"
+            />
+            <ImportButton />
+          </div>
           <div className={style.card}>
             {
               cardData.map(({ title, Details, Add }) => (
@@ -32,7 +42,13 @@ const ProjectName = () => {
             }
           </div>
           <div className={style.pagination}>
-            <Pagination />
+            <Pagination
+              setCount={setPageSize}
+              count={pageSize}
+              totalCount={totalCount}
+              setPage={setPage}
+              page={page}
+            />
           </div>
         </div>
       </div>

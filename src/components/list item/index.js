@@ -20,7 +20,7 @@ const Items = () => {
         //             <td>XYZ123 ABC</td>
         //             <td>DEV1234567@XYZ.COM</td>
         //             <td>DEVELOPER ^</td>
-        //             <td className={style.green}>Active</td>
+        //             <td className={style.green}>ACTIVE</td>
         //             <td>10-OCT-2022</td>
         //             <td>...</td>
         //         </tr>
@@ -29,7 +29,7 @@ const Items = () => {
         //             <td>XYZ123 ABC</td>
         //             <td>DEV1234567@XYZ.COM</td>
         //             <td>DEVELOPER ^</td>
-        //             <td className={style.green}>Active</td>
+        //             <td className={style.green}>ACTIVE</td>
         //             <td>10-OCT-2022</td>
         //             <td>...</td>
         //         </tr>
@@ -47,7 +47,7 @@ const Items = () => {
         //             <td>XYZ123 ABC</td>
         //             <td>DEV1234567@XYZ.COM</td>
         //             <td>DEVELOPER ^</td>
-        //             <td className={style.green}>Active</td>
+        //             <td className={style.green}>ACTIVE</td>
         //             <td>10-OCT-2022</td>
         //             <td>...</td>
         //         </tr>
@@ -56,7 +56,7 @@ const Items = () => {
         //             <td>XYZ123 ABC</td>
         //             <td>DEV1234567@XYZ.COM</td>
         //             <td>OWNER ^</td>
-        //             <td className={style.green}>Active</td>
+        //             <td className={style.green}>ACTIVE</td>
         //             <td>10-OCT-2022</td>
         //             <td>...</td>
         //         </tr>
@@ -65,7 +65,7 @@ const Items = () => {
         //             <td>XYZ123 ABC</td>
         //             <td>DEV1234567@XYZ.COM</td>
         //             <td>ADMIN ^</td>
-        //             <td className={style.green}>Active</td>
+        //             <td className={style.green}>ACTIVE</td>
         //             <td>10-OCT-2022</td>
         //             <td>...</td>
         //         </tr>
@@ -74,7 +74,7 @@ const Items = () => {
         //             <td>XYZ123 ABC</td>
         //             <td>DEV1234567@XYZ.COM</td>
         //             <td>PM ^</td>
-        //             <td className={style.green}>Active</td>
+        //             <td className={style.green}>ACTIVE</td>
         //             <td>10-OCT-2022</td>
         //             <td>...</td>
         //         </tr>
@@ -83,7 +83,7 @@ const Items = () => {
         //             <td>XYZ123 ABC</td>
         //             <td>DEV1234567@XYZ.COM</td>
         //             <td>QA ^</td>
-        //             <td className={style.green}>Active</td>
+        //             <td className={style.green}>ACTIVE</td>
         //             <td>10-OCT-2022</td>
         //             <td>...</td>
         //         </tr>
@@ -92,7 +92,7 @@ const Items = () => {
         //             <td>XYZ123 ABC</td>
         //             <td>DEV1234567@XYZ.COM</td>
         //             <td>DEVELOPER ^</td>
-        //             <td className={style.green}>Active</td>
+        //             <td className={style.green}>ACTIVE</td>
         //             <td>10-OCT-2022</td>
         //             <td>...</td>
         //         </tr>
@@ -101,7 +101,7 @@ const Items = () => {
         //             <td>XYZ123 ABC</td>
         //             <td>DEV1234567@XYZ.COM</td>
         //             <td>DESIGN ^</td>
-        //             <td className={style.green}>Active</td>
+        //             <td className={style.green}>ACTIVE</td>
         //             <td>10-OCT-2022</td>
         //             <td>...</td>
         //         </tr>
@@ -119,7 +119,7 @@ const Items = () => {
         //             <td>XYZ123 ABC</td>
         //             <td>DEV1234567@XYZ.COM</td>
         //             <td>DEVELOPER ^</td>
-        //             <td className={style.green}>Active</td>
+        //             <td className={style.green}>ACTIVE</td>
         //             <td>10-OCT-2022</td>
         //             <td>...</td>
         //         </tr>
@@ -128,7 +128,7 @@ const Items = () => {
         //             <td>XYZ123 ABC</td>
         //             <td>DEV1234567@XYZ.COM</td>
         //             <td>OWNER ^</td>
-        //             <td className={style.green}>Active</td>
+        //             <td className={style.green}>ACTIVE</td>
         //             <td>10-OCT-2022</td>
         //             <td>...</td>
         //         </tr>
@@ -137,7 +137,7 @@ const Items = () => {
         //             <td>XYZ123 ABC</td>
         //             <td>DEV1234567@XYZ.COM</td>
         //             <td>ADMIN ^</td>
-        //             <td className={style.green}>Active</td>
+        //             <td className={style.green}>ACTIVE</td>
         //             <td>10-OCT-2022</td>
         //             <td>...</td>
         //         </tr>
@@ -146,7 +146,7 @@ const Items = () => {
         //             <td>XYZ123 ABC</td>
         //             <td>DEV1234567@XYZ.COM</td>
         //             <td>PM ^</td>
-        //             <td className={style.green}>Active</td>
+        //             <td className={style.green}>ACTIVE</td>
         //             <td>10-OCT-2022</td>
         //             <td>...</td>
         //         </tr>
@@ -155,7 +155,7 @@ const Items = () => {
         //             <td>XYZ123 ABC</td>
         //             <td>DEV1234567@XYZ.COM</td>
         //             <td>QA ^</td>
-        //             <td className={style.green}>Active</td>
+        //             <td className={style.green}>ACTIVE</td>
         //             <td>10-OCT-2022</td>
         //             <td>...</td>
         //         </tr>
@@ -164,7 +164,7 @@ const Items = () => {
         //             <td>XYZ123 ABC</td>
         //             <td>DEV1234567@XYZ.COM</td>
         //             <td>ADMIN ^</td>
-        //             <td className={style.green}>Active</td>
+        //             <td className={style.green}>ACTIVE</td>
         //             <td>10-OCT-2022</td>
         //             <td>...</td>
         //         </tr>
@@ -173,7 +173,7 @@ const Items = () => {
         //             <td>XYZ123 ABC</td>
         //             <td>DEV1234567@XYZ.COM</td>
         //             <td>PM ^</td>
-        //             <td className={style.green}>Active</td>
+        //             <td className={style.green}>ACTIVE</td>
         //             <td>10-OCT-2022</td>
         //             <td>...</td>
         //         </tr>
@@ -191,14 +191,14 @@ const Items = () => {
                         <th>LAST ACTIVE</th>
                         <th>SETTINGS</th>
                     </tr>
-                    {itemData.map(({ NO, name, email, role, status, active, settings }) => (
+                    {itemData.map(({ NO, name, email, role, status, ACTIVE, settings }) => (
                         <tr>
                             <td>{NO}</td>
                             <td>{name}</td>
                             <td>{email}</td>
                             <td>{role}</td>
                             <td className={style.color}>{status}</td>
-                            <td>{active}</td>
+                            <td>{ACTIVE}</td>
                             <td>{settings}</td>
                             <td></td>
                         </tr>
@@ -218,8 +218,8 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "DEVELOPER ^",
-        status: "Active",
-        active: "10-OCT-2022 ",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -227,8 +227,8 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "DEVELOPER ^",
-        status: "Active",
-        active: "10-OCT-2022 ",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -237,7 +237,7 @@ const itemData = [
         email: "DEV1234567@XYZ.COM",
         role: "DEVELOPER ^",
         status: "CLOSED",
-        active: "10-OCT-2022 ",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -245,8 +245,8 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "DEVELOPER ^",
-        status: "Active",
-        active: "10-OCT-2022 ",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -254,8 +254,8 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "OWNER ^",
-        status: "Active",
-        active: "10-OCT-2022 ",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -263,8 +263,8 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "ADMIN ^",
-        status: "Active",
-        active: "10-OCT-2022 ",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -272,8 +272,8 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "PM ^",
-        status: "Active",
-        active: "10-OCT-2022 ",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -281,8 +281,8 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "QA ^",
-        status: "Active",
-        active: "10-OCT-2022 ",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -290,8 +290,8 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "DEVELOPER ^",
-        status: "Active",
-        active: "10-OCT-2022 ",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -299,8 +299,8 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "DESIGN ^",
-        status: "Active",
-        active: "10-OCT-2022 ",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -309,7 +309,7 @@ const itemData = [
         email: "DEV1234567@XYZ.COM",
         role: "DEVELOPER ^",
         status: "HOLD",
-        active: "10-OCT-2022 ",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -317,8 +317,8 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "DEVELOPER ^",
-        status: "Active",
-        active: "10-OCT-2022 ",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -326,8 +326,8 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "OWNER ^",
-        status: "Active",
-        active: "10-OCT-2022 ",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -335,8 +335,8 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "ADMIN ^",
-        status: "Active",
-        active: "10-OCT-2022 ",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -344,8 +344,8 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "PM ^",
-        status: "Active",
-        active: "10-OCT-2022 ",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -353,8 +353,8 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "QA ^",
-        status: "Active",
-        active: "10-OCT-2022 ",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -362,8 +362,8 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "ADMIN ^",
-        status: "Active",
-        active: "10-OCT-2022 ",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
     {
@@ -371,8 +371,8 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "PM ^",
-        status: "Active",
-        active: "10-OCT-2022 ",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
         settings: "..."
     },
 ];

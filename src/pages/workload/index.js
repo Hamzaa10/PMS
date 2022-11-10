@@ -1,4 +1,5 @@
 import React from 'react'
+import Tabs4 from '../../components/4tabs'
 import Date from '../../components/date'
 import Daytabs from '../../components/day tabs'
 import Navbar from '../../components/layout/navbar'
@@ -16,25 +17,28 @@ const Workload = () => {
         <Sidebar />
         <div className={style.data}>
           <Navbar title="PROJECTS" />
-          <Tabs
-            title1="BOX"
-            title2="LIST"
-            title3="BOARD"
-            title4="TIMELINE"
-            title5="GANTT"
-            title6="WORKLOAD"
-            title7="STATUS"
-            title8="CALENDER" />
+          <div className={style.tab}>
+            <Tabs
+              title1="BOX"
+              title2="LIST"
+              title3="BOARD"
+              title4="TIMELINE"
+              title5="GANTT"
+              title6="WORKLOAD"
+              title7="STATUS"
+              title8="CALENDER" />
+          </div>
           <div className={style.tabs}>
             <Daytabs
               title1="DAY"
               title2="WEEK"
               title3="MONTH"
             />
-            <Daytabs
+            <Tabs4
               title1="ALL"
               title2="NEW"
               title3="BACKLOG"
+              title4="BUGS"
             />
           </div>
           <Date />

@@ -5,9 +5,9 @@ const Textarea = (props) => {
   return (
     <div className={style.container}>
       <div className={style.left}>
-      <label className={style.label} htmlFor="">{props.lable}</label>
+        <label className={style.label} htmlFor="">{props.lable}</label>
       </div>
-      <input className={style.input} type="name"/>
+      <input className={style.input} type="name" />
     </div>
   )
 }

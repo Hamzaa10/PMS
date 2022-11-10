@@ -13,11 +13,8 @@ const Tabs = (props) => {
                 <Link className={style.link} to="">{props.title4}</Link>
                 <Link className={style.link} to="">{props.title5}</Link>
                 <Link className={style.link} to="/workload">{props.title6}</Link>
-                <Link className={style.link} to="">{props.title7}</Link>
+                <Link className={style.link} to="/status">{props.title7}</Link>
                 <Link className={style.link1} to="">{props.title8}</Link>
-            </div>
-            <div className={style.btn}>
-                <button className={style.button}>Import</button>
             </div>
         </div>
     )

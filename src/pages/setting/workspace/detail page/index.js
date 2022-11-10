@@ -3,10 +3,12 @@ import Image from '../../../../components/image'
 import Navbar from '../../../../components/layout/navbar'
 import Sidebar from '../../../../components/layout/sidebar'
 import SettingTabs from '../../../../components/settingtabs'
-import Textarea from '../../../../components/textarea'
+// import Textarea from '../../../../components/textarea'
 
 import img from '../../../../assets/Ellipse 11.svg'
 import style from './detailpage.module.scss'
+import NewWorkspace from '../../../../components/new workspace'
+import Button from '../../../../components/button'
 
 const Detailpage = () => {
     return (
@@ -21,13 +23,13 @@ const Detailpage = () => {
                         title3="WORKSPACE" />
                     <div className={style.input}>
                         <div>
-                            {
-                                inputData.map(({ lable }) => (
-                                    <Textarea lable={lable} />
-                                ))
-                            }
+                            <NewWorkspace />
                         </div>
                         <Image title="add or change logo" img={img} />
+                    </div>
+                    <div className={style.btn}>
+                        <Button title="BACK" />
+                        <Button title="SAVE" />
                     </div>
                 </div>
             </div>
@@ -38,6 +40,8 @@ const Detailpage = () => {
 export default Detailpage
 
 
-const inputData = [
-    { lable: "WORK SPACE NAME" }
-]
+// const inputData = [
+//     { lable: "WORK SPACE NAME" },
+//     { lable: "NO. OF MEMBERS" },
+//     { lable: "FONTS" },
+// ]
