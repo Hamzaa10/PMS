@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../../components/layout/navbar'
 import Sidebar from '../../../components/layout/sidebar'
-import Items from '../../../components/list item'
+import Items from '../../../components/member-itemslist'
 import SettingTabs from '../../../components/settingtabs'
 import Textfeild from '../../../components/textfeild'
 import Pagination from '../../../components/pagination'
@@ -14,7 +14,6 @@ const Members = () => {
     const [totalCount] = useState();
     const [page, setPage] = useState(1);
 
-
     return (
         <div className={style.container}>
             <div className={style.display}>
@@ -25,16 +24,19 @@ const Members = () => {
                         title1="MY SETTING"
                         title2="MEMBERS"
                         title3="WORKSPACE"
+                        title4="PROJECT"
                     />
                     <Textfeild />
                     <Items />
-                    <Pagination
-                        setCount={setPageSize}
-                        count={pageSize}
-                        totalCount={totalCount}
-                        setPage={setPage}
-                        page={page}
-                    />
+                    <div className={style.pagination}>
+                        <Pagination
+                            setCount={setPageSize}
+                            count={pageSize}
+                            totalCount={totalCount}
+                            setPage={setPage}
+                            page={page}
+                        />
+                    </div>
                 </div>
             </div>
         </div>

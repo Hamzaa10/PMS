@@ -23,7 +23,7 @@ const NewWorkspace = () => {
             <Textarea lable="SELECT TIME ZONE" />
             <div className={style.invite}>
                 <label className={style.label4} htmlFor="">INVITE PEOPLE</label>
-                <textarea name="" id="" cols="54" rows="12"></textarea>
+                <textarea name="" id="" cols="56" rows="12" placeholder='ADD MULTIPLE TOGETHER WITH EMAIL'></textarea>
             </div>
         </div>
     )

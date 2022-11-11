@@ -21,6 +21,7 @@ const MySetting = () => {
                         title1="MY SETTING"
                         title2="MEMBERS"
                         title3="WORKSPACE"
+                        title4="PROJECT"
                     />
                     <div className={style.input}>
                         <div>
@@ -47,7 +48,6 @@ export default MySetting
 const inputData = [
     { lable: "USER NAME" },
     { lable: "EMAIL" },
-    { lable: "CURRENT PASSWORD" },
     { lable: "NEW PASSWORD" },
     { lable: "CONFIRM PASSWORD" }
 ]

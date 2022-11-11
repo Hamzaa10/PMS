@@ -41,7 +41,10 @@ const Workload = () => {
               title4="BUGS"
             />
           </div>
-          <Date />
+          <Date
+            startdate="03-OCT-22"
+            enddate="09-OCT-22"
+          />
           <Header />
           <Table />
         </div>

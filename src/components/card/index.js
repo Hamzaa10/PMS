@@ -7,7 +7,7 @@ import img2 from '../../assets/image2.png'
 import img3 from '../../assets/image3.png'
 import img4 from '../../assets/add-user.png'
 
-const Card = ({title,Details, Add}) => {
+const Card = ({title,Details, Add, todo, notdone, done, todoHour, notdoneHour, doneHour }) => {
     return (
         <div className={style.container}>
             <div className={style.name}>
@@ -16,15 +16,15 @@ const Card = ({title,Details, Add}) => {
             </div>
             <div className={style.progress1}>
                 <div className={style.same}>
-                    <p className={style.para}>10</p>
+                    <p className={style.para}>{todo}</p>
                     <p className={style.para}>TO DO</p>
                 </div>
                 <div className={style.same}>
-                    <p className={style.para}>13</p>
+                    <p className={style.para}>{notdone}</p>
                     <p className={style.para}>Not Done</p>
                 </div>
                 <div className={style.same}>
-                    <p className={style.para}>0</p>
+                    <p className={style.para}>{done}</p>
                     <p className={style.para}>Done</p>
                 </div>
                 <div className={style.bar}>
@@ -41,15 +41,15 @@ const Card = ({title,Details, Add}) => {
             </div>
             <div className={style.progress2}>
                 <div className={style.same}>
-                    <p className={style.para}>132h</p>
+                    <p className={style.para}>{todoHour}</p>
                     <p className={style.para}>TO DO</p>
                 </div>
                 <div className={style.same}>
-                    <p className={style.para}>32h</p>
+                    <p className={style.para}>{notdoneHour}</p>
                     <p className={style.para}>Not Done</p>
                 </div>
                 <div className={style.same}>
-                    <p className={style.para}>0h</p>
+                    <p className={style.para}>{doneHour}</p>
                     <p className={style.para}>Done</p>
                 </div>
                 <div className={style.bar}>

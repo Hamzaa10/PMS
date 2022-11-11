@@ -5,7 +5,7 @@ import style from './graph.module.scss'
 const Graph = ({ first, second, third }) => {
     return (
         <div className={style.container}>
-            <div>
+            <div className={style.graph}>
                 <div className={style.top}>
                     <div className={style.top_sec}>
                         <p className={style.para}>{first}</p>

@@ -20,6 +20,7 @@ const Workspace = () => {
                         title1="MY SETTING"
                         title2="MEMBERS"
                         title3="WORKSPACE"
+                        title4="PROJECT"
                     />
                     <div className={style.img}>
                         <Image title="Workspace Name joined" img={img1} />

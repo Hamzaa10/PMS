@@ -18,8 +18,9 @@
         border: 1px solid lightgray;
         display: flex;
         height: 30px;
+        width: 700px;
         .select{
-            padding: 0 5px;
+            padding: 0 10px;
             border: none;
             border-left: 1px solid lightgray;
             outline: none;
@@ -29,7 +30,7 @@
             border: none;
             background-color: #676A6F;
             color: white;
-            padding: 6px 17px;
+            padding: 6px 22px;
             font-size: 9px;
             font-weight: 700;
             cursor: pointer;

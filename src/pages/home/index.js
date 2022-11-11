@@ -11,7 +11,7 @@ import { useState } from 'react'
 
 const Home = () => {
   const [pageSize, setPageSize] = useState(10);
-  const [totalCount, setTotalCount] = useState();
+  const [totalCount] = useState();
   const [page, setPage] = useState(1);
 
 
@@ -36,8 +36,18 @@ const Home = () => {
           </div>
           <div className={style.card}>
             {
-              cardData.map(({ title, Details, Add }) => (
-                <Card title={title} Details={Details} Add={Add} />
+              cardData.map(({ title, Details, Add, todo, notdone, done, todoHour, notdoneHour, doneHour }) => (
+                <Card
+                  title={title}
+                  Details={Details}
+                  Add={Add}
+                  todo={todo}
+                  notdone={notdone}
+                  done={done}
+                  todoHour={todoHour}
+                  notdoneHour={notdoneHour}
+                  doneHour={doneHour}
+                />
               ))
             }
           </div>
@@ -60,14 +70,14 @@ export default Home
 
 
 const cardData = [
-  { title: "Project Name", Details: "Details", Add: "Add People" },
-  { title: "Project Name", Details: "Details", Add: "Add People" },
-  { title: "Project Name", Details: "Details", Add: "Add People" },
-  { title: "Project Name", Details: "Details", Add: "Add People" },
-  { title: "Project Name", Details: "Details", Add: "Add People" },
-  { title: "Project Name", Details: "Details", Add: "Add People" },
-  { title: "Project Name", Details: "Details", Add: "Add People" },
-  { title: "Project Name", Details: "Details", Add: "Add People" }
+  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" }
 ]
 
 

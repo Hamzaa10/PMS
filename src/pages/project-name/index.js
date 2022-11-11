@@ -11,7 +11,7 @@ import ImportButton from '../../components/import button'
 
 const ProjectName = () => {
   const [pageSize, setPageSize] = useState(10);
-  const [totalCount, setTotalCount] = useState();
+  const [totalCount] = useState();
   const [page, setPage] = useState(1);
 
 
@@ -35,9 +35,19 @@ const ProjectName = () => {
             <ImportButton />
           </div>
           <div className={style.card}>
-            {
-              cardData.map(({ title, Details, Add }) => (
-                <Card title={title} Details={Details} Add={Add} />
+          {
+              cardData.map(({ title, Details, Add, todo, notdone, done, todoHour, notdoneHour, doneHour }) => (
+                <Card
+                  title={title}
+                  Details={Details}
+                  Add={Add}
+                  todo={todo}
+                  notdone={notdone}
+                  done={done}
+                  todoHour={todoHour}
+                  notdoneHour={notdoneHour}
+                  doneHour={doneHour}
+                />
               ))
             }
           </div>
@@ -58,14 +68,13 @@ const ProjectName = () => {
 
 export default ProjectName
 
-
 const cardData = [
-  { title: "Milstone Name", Details: "Details", Add: "Add People" },
-  { title: "Milstone Name", Details: "Details", Add: "Add People" },
-  { title: "Milstone Name", Details: "Details", Add: "Add People" },
-  { title: "Milstone Name", Details: "Details", Add: "Add People" },
-  { title: "Milstone Name", Details: "Details", Add: "Add People" },
-  { title: "Milstone Name", Details: "Details", Add: "Add People" },
-  { title: "Milstone Name", Details: "Details", Add: "Add People" },
-  { title: "Milstone Name", Details: "Details", Add: "Add People" }
+  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" }
 ]

@@ -1,8 +1,10 @@
 .container {
+    margin: 0 30px;
     table{
         tr {
             .number {    
                 border-right: 1px solid #E9E7E7;
+                width: 111px;
             }
         }
     }

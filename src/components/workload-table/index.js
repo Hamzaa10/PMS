@@ -116,7 +116,6 @@ const graphData = [
     { index: "index", first: "05:00", second: "07:30", third: "06:00" },
     { index: "index", first: "05:00", second: "07:30", third: "06:00" },
     { index: "index", first: "05:00", second: "07:30", third: "06:00" },
-    { index: "index", first: "05:00", second: "07:30", third: "06:00" },
     { index: "index", first: "05:00", second: "07:30", third: "06:00" }
 ]
 
@@ -132,12 +131,10 @@ const numberData = [
     { index: "index", number: "40:00" },
     { index: "index", number: "40:00" },
     { index: "index", number: "40:00" },
-    { index: "index", number: "40:00" },
     { index: "index", number: "40:00" }
 ]
 
 const profileData = [
-    { index: "index" },
     { index: "index" },
     { index: "index" },
     { index: "index" },

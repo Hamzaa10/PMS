@@ -24,5 +24,8 @@
     }
     .pagination{
         padding-left: 25px;
+        position: absolute;
+        bottom: 15px;
+        width: calc(100vw - 365px);
     }
 }

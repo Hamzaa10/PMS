@@ -25,7 +25,6 @@ const Items = () => {
                             <td className={style.color}>{status}</td>
                             <td>{ACTIVE}</td>
                             <td>{settings}</td>
-                            <td></td>
                         </tr>
                     ))}
                 </tbody>
@@ -196,6 +195,33 @@ const itemData = [
         name: "XYZ123 ABC",
         email: "DEV1234567@XYZ.COM",
         role: "PM ^",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
+        settings: "..."
+    },
+    {
+        NO: "19",
+        name: "XYZ123 ABC",
+        email: "DEV1234567@XYZ.COM",
+        role: "DEVELOPER ^",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
+        settings: "..."
+    },
+    {
+        NO: "20",
+        name: "XYZ123 ABC",
+        email: "DEV1234567@XYZ.COM",
+        role: "ADMIN ^",
+        status: "ACTIVE",
+        ACTIVE: "10-OCT-2022 ",
+        settings: "..."
+    },
+    {
+        NO: "21",
+        name: "XYZ123 ABC",
+        email: "DEV1234567@XYZ.COM",
+        role: "DESIGN ^",
         status: "ACTIVE",
         ACTIVE: "10-OCT-2022 ",
         settings: "..."
