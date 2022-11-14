@@ -6,7 +6,9 @@ import style from './image.module.scss'
 const Image = (props) => {
   return (
     <div className={style.container}>
-      <Link to="/detailpage"><img src={props.img} alt="" /></Link>
+      <div className={style.image}>
+        <Link to="/detailpage"><img src={props.img} alt="" /></Link>
+      </div>
       <p className={style.para}>{props.title}</p>
     </div>
   )

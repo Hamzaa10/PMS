@@ -46,7 +46,9 @@ const Workload = () => {
             enddate="09-OCT-22"
           />
           <Header />
-          <Table />
+          <div className={style.items}>
+            <Table />
+          </div>
         </div>
       </div>
     </div>

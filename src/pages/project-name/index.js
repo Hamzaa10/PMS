@@ -69,12 +69,12 @@ const ProjectName = () => {
 export default ProjectName
 
 const cardData = [
-  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
-  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
-  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
-  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
-  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
-  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
-  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
-  { title: "Project Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" }
+  { title: "Milestone Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Milestone Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Milestone Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Milestone Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Milestone Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Milestone Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Milestone Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" },
+  { title: "Milestone Name", Details: "Details", Add: "Add People", todo: "10", notdone: "13", done: "0", todoHour: "132h", notdoneHour: "132h", doneHour: "0h" }
 ]

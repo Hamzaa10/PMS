@@ -3,11 +3,12 @@ import Image from '../../../../components/image'
 import Navbar from '../../../../components/layout/navbar'
 import Sidebar from '../../../../components/layout/sidebar'
 import SettingTabs from '../../../../components/settingtabs'
-
-import img from '../../../../assets/Ellipse 10.svg'
-import style from './detailpage.module.scss'
 import NewWorkspace from '../../../../components/new workspace'
 import Button from '../../../../components/button'
+
+import img from '../../../../assets/Ellipse 10.svg'
+import img1 from '../../../../assets/add-photo.png'
+import style from './detailpage.module.scss'
 
 const Detailpage = () => {
     return (
@@ -25,7 +26,10 @@ const Detailpage = () => {
                         <div>
                             <NewWorkspace />
                         </div>
-                        <Image title="add or change logo" img={img} />
+                        <div className={style.image}>
+                            <Image title="add or change logo" img={img} />
+                            <img className={style.img} src={img1} alt="add image" />
+                        </div>
                     </div>
                     <div className={style.button}>
                         <div className={style.btn}>

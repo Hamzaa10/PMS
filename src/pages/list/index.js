@@ -48,7 +48,7 @@ const List = () => {
                                 closed={closed}
                                 qa={qa}
                                 created={created}
-                                textColor={{color: "white"}}
+                                textColor={{ color: "white" }}
                                 bgColor={{
                                     backgroundColor: bgColor ? bgColor : "red"
                                 }}
@@ -174,10 +174,10 @@ const itemsData = [
         created: "HM",
         bgColor: "#D76868",
         grey: "#7BDDA2",
-        img:redflag
+        img: redflag
     },
     {
-        img:redflag,
+        img: redflag,
         project: "PROJECT",
         milestone: "MILESTONE",
         task: "TASK",
@@ -218,10 +218,10 @@ const itemsData = [
         created: "HM",
         bgColor: "#C25AE7",
         grey: "rgba(0, 0, 0, 0.25)",
-        img:yellowflag
+        img: yellowflag
     },
     {
-        img:yellowflag,
+        img: yellowflag,
         project: "PROJECT",
         milestone: "MILESTONE",
         task: "TASK",
@@ -262,10 +262,10 @@ const itemsData = [
         created: "HM",
         bgColor: "#D76868",
         grey: "#7BDDA2",
-        img:redflag
+        img: redflag
     },
     {
-        img:redflag,
+        img: redflag,
         project: "PROJECT",
         milestone: "MILESTONE",
         task: "TASK",
@@ -306,10 +306,10 @@ const itemsData = [
         created: "HM",
         bgColor: "#C25AE7",
         grey: "rgba(0, 0, 0, 0.25)",
-        img:yellowflag
+        img: yellowflag
     },
     {
-        img:yellowflag,
+        img: yellowflag,
         project: "PROJECT",
         milestone: "MILESTONE",
         task: "TASK",
@@ -327,7 +327,7 @@ const itemsData = [
         closed: "22-OCT-2022",
         qa: "HM",
         created: "HM",
-        bgColor: "#C25AE7", 
+        bgColor: "#C25AE7",
         grey: "rgba(0, 0, 0, 0.25)",
     },
     {
@@ -350,10 +350,10 @@ const itemsData = [
         created: "HM",
         bgColor: "#5C9FDD",
         grey: "#F9D30B",
-        img:redflag
+        img: redflag
     },
     {
-        img:redflag,
+        img: redflag,
         project: "PROJECT",
         milestone: "MILESTONE",
         task: "TASK",
@@ -394,6 +394,6 @@ const itemsData = [
         created: "HM",
         bgColor: "#A1D798",
         grey: "#F80101",
-        img:yellowflag
+        img: yellowflag
     },
 ]

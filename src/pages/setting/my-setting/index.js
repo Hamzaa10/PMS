@@ -7,7 +7,7 @@ import Textarea from '../../../components/textarea/index'
 import Button from '../../../components/button/index'
 
 import img from '../../../assets/Ellipse 6.svg'
-
+import img1 from '../../../assets/add-photo.png'
 import style from './mysetting.module.scss'
 
 const MySetting = () => {
@@ -31,7 +31,10 @@ const MySetting = () => {
                                 ))
                             }
                         </div>
-                        <Image title="Change Picture" img={img}/>
+                        <div className={style.image}>
+                            <Image title="Change Picture" img={img} />
+                            <img className={style.img} src={img1} alt="" />
+                        </div>
                     </div>
                     <div className={style.btn}>
                         <Button title="SAVE" />

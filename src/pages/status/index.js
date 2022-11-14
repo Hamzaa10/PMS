@@ -51,22 +51,24 @@ const Status = () => {
                         green3={{ background: "#2D9274" }}
                         red={{ background: "#F50000" }}
                     />
-                    {
-                        itemsData.map(({ day, project, milestone, notstart, blocked, working, under, deliver, accept, reject }) => (
-                            <ItemsLine
-                                day={day}
-                                project={project}
-                                milestone={milestone}
-                                notstart={notstart}
-                                blocked={blocked}
-                                working={working}
-                                under={under}
-                                deliver={deliver}
-                                accept={accept}
-                                reject={reject}
-                            />
-                        ))
-                    }
+                    <div className={style.items}>
+                        {
+                            itemsData.map(({ day, project, milestone, notstart, blocked, working, under, deliver, accept, reject }) => (
+                                <ItemsLine
+                                    day={day}
+                                    project={project}
+                                    milestone={milestone}
+                                    notstart={notstart}
+                                    blocked={blocked}
+                                    working={working}
+                                    under={under}
+                                    deliver={deliver}
+                                    accept={accept}
+                                    reject={reject}
+                                />
+                            ))
+                        }
+                    </div>
                 </div>
             </div>
         </div>

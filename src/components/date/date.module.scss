@@ -16,13 +16,10 @@
         }
     }
     .image{
-        margin-left: -110px;
-        // width: 50px;
+        margin-left: -105px;
+        width: 26px;
         display: flex;
         align-items: center;
-        img{
-            width: 22px;
-        }
     }
     .right {
         display: flex;
@@ -35,13 +32,14 @@
             margin-right: 25px;
         }
         .date {
-            font-weight: 300;
-            font-size: 12px;
+            font-weight: 500;
+            font-size: 13px;
             color: #676A6F;
             background: #F5F5F5;
             border-radius: 5px;
-            padding: 6px 40px;
-            margin-right: 10px;
+            padding: 6px 20px;
+            margin-right: 25px;
+            border: none;
         }
     }
 }

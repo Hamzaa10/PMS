@@ -11,14 +11,12 @@ const Date = ({ startdate, enddate }) => {
                 <img className={style.img} src={img} alt="" />
                 <input className={style.input} type="text" placeholder='Search users' size={15} />
             </div>
-            <a className={style.image} href="">
-                <img src={img1} alt="" />
-            </a>
+            <img className={style.image} src={img1} alt="" />
             <div className={style.right}>
                 <p className={style.para}>START DATE</p>
-                <p className={style.date}>{startdate}</p>
+                <input className={style.date} type="date" name="date" id="date" />
                 <p className={style.para}>END DATE</p>
-                <p className={style.date}>{enddate}</p>
+                <input className={style.date} type="date" name="date" id="date" />
             </div>
         </div>
     )
