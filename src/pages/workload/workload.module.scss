@@ -17,7 +17,8 @@
             justify-content: space-between;
             margin: 0px 30px;
         }.items{
-            height: calc(100vh - 217px);
+            height: calc(100vh - 175px);
+            overflow-y: auto;
         }
     }
 }

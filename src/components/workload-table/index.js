@@ -27,7 +27,7 @@ const Table = () => {
                         </td>
                         <td className={style.number}>
                             {
-                                numberData.map(({ index,number }) => (
+                                numberData.map(({ index, number }) => (
                                     <Number index={index} number={number} color={{ color: '#676A6F' }} />
                                 ))
                             }
@@ -116,7 +116,9 @@ const graphData = [
     { index: "index", first: "05:00", second: "07:30", third: "06:00" },
     { index: "index", first: "05:00", second: "07:30", third: "06:00" },
     { index: "index", first: "05:00", second: "07:30", third: "06:00" },
-    { index: "index", first: "05:00", second: "07:30", third: "06:00" }
+    { index: "index", first: "05:00", second: "07:30", third: "06:00" },
+    { index: "index", first: "05:00", second: "07:30", third: "06:00" },
+    { index: "index", first: "05:00", second: "07:30", third: "06:00" },
 ]
 
 const numberData = [
@@ -131,7 +133,9 @@ const numberData = [
     { index: "index", number: "40:00" },
     { index: "index", number: "40:00" },
     { index: "index", number: "40:00" },
-    { index: "index", number: "40:00" }
+    { index: "index", number: "40:00" },
+    { index: "index", number: "40:00" },
+    { index: "index", number: "40:00" },
 ]
 
 const profileData = [
@@ -146,5 +150,7 @@ const profileData = [
     { index: "index" },
     { index: "index" },
     { index: "index" },
-    { index: "index" }
+    { index: "index" },
+    { index: "index" },
+    { index: "index" },
 ]

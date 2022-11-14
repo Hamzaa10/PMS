@@ -19,7 +19,9 @@
             margin: 0px 30px;
         }
         .items{
-            height: calc(100vh - 257px);
+            height: calc(100vh - 252px);
+            overflow-y: auto;
+            overflow-x: hidden;
         }
     }
 }

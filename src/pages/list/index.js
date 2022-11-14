@@ -27,37 +27,39 @@ const List = () => {
                             title7="STATUS"
                             title8="CALENDER" />
                     </div>
-                    <ListHeader />
-                    {
-                        itemsData.map(({ grey, img, bgColor, project, milestone, task, id, type, assignee, group, Status, expected, estimated, tracked, start, due, closed, qa, created }) => (
-                            <ListItems
-                                project={project}
-                                milestone={milestone}
-                                task={task}
-                                id={id}
-                                type={type}
-                                assignee={assignee}
-                                priority={img}
-                                group={group}
-                                Status={Status}
-                                expected={expected}
-                                estimated={estimated}
-                                tracked={tracked}
-                                start={start}
-                                due={due}
-                                closed={closed}
-                                qa={qa}
-                                created={created}
-                                textColor={{ color: "white" }}
-                                bgColor={{
-                                    backgroundColor: bgColor ? bgColor : "red"
-                                }}
-                                grey={{
-                                    backgroundColor: grey ? grey : "red"
-                                }}
-                            />
-                        ))
-                    }
+                        <ListHeader />
+                    <div className={style.list}>
+                        {
+                            itemsData.map(({ grey, img, bgColor, project, milestone, task, id, type, assignee, group, Status, expected, estimated, tracked, start, due, closed, qa, created }) => (
+                                <ListItems
+                                    project={project}
+                                    milestone={milestone}
+                                    task={task}
+                                    id={id}
+                                    type={type}
+                                    assignee={assignee}
+                                    priority={img}
+                                    group={group}
+                                    Status={Status}
+                                    expected={expected}
+                                    estimated={estimated}
+                                    tracked={tracked}
+                                    start={start}
+                                    due={due}
+                                    closed={closed}
+                                    qa={qa}
+                                    created={created}
+                                    textColor={{ color: "white" }}
+                                    bgColor={{
+                                        backgroundColor: bgColor ? bgColor : "red"
+                                    }}
+                                    grey={{
+                                        backgroundColor: grey ? grey : "red"
+                                    }}
+                                />
+                            ))
+                        }
+                    </div>
                 </div>
             </div>
         </div>
@@ -373,6 +375,72 @@ const itemsData = [
         created: "HM",
         bgColor: "#5C9FDD",
         grey: "#F80101",
+    },
+    {
+        project: "PROJECT",
+        milestone: "MILESTONE",
+        task: "TASK",
+        id: "TASK ID",
+        type: "TASK TYPE",
+        assignee: "HM",
+        priority: "",
+        group: "BLOCKED",
+        Status: "BLOCKED",
+        expected: "10:00",
+        estimated: "07:30",
+        tracked: "05:39",
+        start: "22-OCT-2022",
+        due: "22-OCT-2022",
+        closed: "22-OCT-2022",
+        qa: "HM",
+        created: "HM",
+        bgColor: "#A1D798",
+        grey: "#F80101",
+        img: yellowflag
+    },
+    {
+        project: "PROJECT",
+        milestone: "MILESTONE",
+        task: "TASK",
+        id: "TASK ID",
+        type: "TASK TYPE",
+        assignee: "HM",
+        priority: "",
+        group: "BLOCKED",
+        Status: "BLOCKED",
+        expected: "10:00",
+        estimated: "07:30",
+        tracked: "05:39",
+        start: "22-OCT-2022",
+        due: "22-OCT-2022",
+        closed: "22-OCT-2022",
+        qa: "HM",
+        created: "HM",
+        bgColor: "#A1D798",
+        grey: "#F80101",
+        img: yellowflag
+    },
+    {
+        project: "PROJECT",
+        milestone: "MILESTONE",
+        task: "TASK",
+        id: "TASK ID",
+        type: "TASK TYPE",
+        assignee: "HM",
+        priority: "",
+        group: "BLOCKED",
+        Status: "BLOCKED",
+        expected: "10:00",
+        estimated: "07:30",
+        tracked: "05:39",
+        start: "22-OCT-2022",
+        due: "22-OCT-2022",
+        closed: "22-OCT-2022",
+        qa: "HM",
+        created: "HM",
+        bgColor: "#A1D798",
+        grey: "#F80101",
+        img: yellowflag
     },
     {
         project: "PROJECT",

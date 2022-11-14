@@ -1,5 +1,7 @@
 .container {
-    margin: 0 30px;
+    margin-left: 30px;
+    height: calc(100vh - 217px);
+    overflow-y: auto; 
     table{
         tr {
             .number {    

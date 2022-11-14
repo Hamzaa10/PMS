@@ -13,5 +13,9 @@
             justify-content: space-between;
             margin: 20px 30px 40px;
         }
+        .list{
+            height: calc(100vh - 189px);
+            overflow-y: auto;
+        }
     }
 }
