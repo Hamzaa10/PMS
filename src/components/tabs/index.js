@@ -1,31 +1,27 @@
 import React from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 
 import style from './tabs.module.scss'
 
-const Tabs = (props) => {
+const Tabs = ({ title1, title2, title3, title4, title5, title6, title7, title8 }) => {
 
-    const { pathname } = useLocation();
+    // const { pathname } = useLocation();
 
     return (
         <div className={style.container}>
             <div className={style.tabs}>
-                <Link className={style.link} to="/">{props.title1}</Link>
-                <Link className={style.link} to="/list">{props.title2}</Link>
-                <Link className={style.link} to="">{props.title3}</Link>
-                <Link className={style.link} to="">{props.title4}</Link>
-                <Link className={style.link} to="">{props.title5}</Link>
-                <Link className={style.link} to="/workload">{props.title6}</Link>
-                <Link className={style.link} to="/status">
-                    <p style={{
-                        color: pathname === "/status" ? "#676A6F" : "", background: pathname === "/status" ? "white" : ""
-                    }}>
-                        {props.title7}
-                    </p>
-
-
-                </Link>
-                <Link className={style.link1} to="">{props.title8}</Link>
+                <NavLink className={style.link} to="/">{title1}</NavLink>
+                <NavLink className={style.link} to="/list">{title2}</NavLink>
+                <NavLink className={style.link} to="">{title3}</NavLink>
+                <NavLink className={style.link} to="">{title4}</NavLink>
+                <NavLink className={style.link} to="">{title5}</NavLink>
+                <NavLink className={style.link} to="/workload">{title6}</NavLink>
+                <NavLink className={style.link} to="/status">
+                    {/* <p style={{ color: pathname === "/status" ? "#676A6F" : "", background: pathname === "/status" ? "#ffffff" : "" }}>  */}
+                    {title7}
+                    {/* </p> */}
+                </NavLink>
+                <NavLink className={style.link1} to="">{title8}</NavLink>
             </div>
         </div>
     )

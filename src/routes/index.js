@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from '../pages/home';
 import Members from '../pages/setting/members';
 import MySetting from '../pages/setting/my-setting';
@@ -9,7 +9,8 @@ import Workload from '../pages/workload';
 import ProjectName from '../pages/project-name';
 import Status from '../pages/status';
 import List from '../pages/list';
-
+import WorkloadWeek from '../pages/workload/workload-week';
+import WorkloadMonth from '../pages/workload/workload-month';
 
 const Routing = () => {
   return (
@@ -25,6 +26,8 @@ const Routing = () => {
           <Route path='/projectname' element={<ProjectName />} />
           <Route path='/status' element={<Status />} />
           <Route path='/list' element={<List />} />
+          <Route path='/week' element={<WorkloadWeek />} />
+          <Route path='/month' element={<WorkloadMonth />} />
         </Routes>
       </BrowserRouter>
     </div>

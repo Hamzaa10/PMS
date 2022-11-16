@@ -41,12 +41,17 @@ const Workload = () => {
               title4="BUGS"
             />
           </div>
-          <Date
-            startdate="03-OCT-22"
-            enddate="09-OCT-22"
-          />
+          <Date />
           <div className={style.items}>
-            <Header />
+            <Header 
+              tab1="MON 3 OCT"
+              tab2="TUE 3 OCT"
+              tab3="WED 3 OCT"
+              tab4="THU 3 OCT"
+              tab5="FRI 3 OCT"
+              tab6="SAT 3 OCT"
+              tab7="SUN 3 OCT"
+            />
             <Table />
           </div>
         </div>

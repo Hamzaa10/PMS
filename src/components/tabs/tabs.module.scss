@@ -1,11 +1,12 @@
 .container{
     .tabs{
-        background: #676A6F;
-        border-radius: 3px;
         padding: 4px 3px;
         display: flex;
         align-items: center;
+        background: #676A6F;
+        border-radius: 3px;
         .link{
+            background: #676A6F;
             text-align: center;
             text-decoration: none;
             color: #ffffff;
