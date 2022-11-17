@@ -11,6 +11,9 @@ import Status from '../pages/status';
 import List from '../pages/list';
 import WorkloadWeek from '../pages/workload/workload-week';
 import WorkloadMonth from '../pages/workload/workload-month';
+import StatusWeek from '../pages/status/status-week';
+import StatusMonth from '../pages/status/status-month';
+import StatusYear from '../pages/status/status=year';
 
 const Routing = () => {
   return (
@@ -28,6 +31,9 @@ const Routing = () => {
           <Route path='/list' element={<List />} />
           <Route path='/week' element={<WorkloadWeek />} />
           <Route path='/month' element={<WorkloadMonth />} />
+          <Route path='/statusweek' element={<StatusWeek />} />
+          <Route path='/statusmonth' element={<StatusMonth />} />
+          <Route path='/statusyear' element={<StatusYear />} />
         </Routes>
       </BrowserRouter>
     </div>

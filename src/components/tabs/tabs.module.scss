@@ -7,31 +7,39 @@
         border-radius: 3px;
         .link{
             background: #676A6F;
-            text-align: center;
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
             text-decoration: none;
             color: #ffffff;
             padding: 3px 30px;
+            // width: 110px;
+            // height: 25px;
             border-right: 1px solid white;
             font-weight: 800;
             font-size: 12px;
-            &:hover{
-                background-color: #ffffff;
-                color: #676A6F;
-                padding: 3px 30px;
-            }
+            // &:hover{
+            //     background-color: #ffffff;
+            //     color: #676A6F;
+            //     padding: 3px 30px;
+            // }
         }
         .link1{
-            text-align: center;
             text-decoration: none;
             color: #ffffff;
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
             padding: 3px 30px;
+            // width: 110px;
+            // height: 25px;
             font-weight: 800;
             font-size: 12px;
-            &:hover{
-                background-color: #ffffff;
-                color: #676A6F;
-                padding: 3px 30px;
-            }
+            // &:hover{
+            //     background-color: #ffffff;
+            //     color: #676A6F;
+            //     padding: 3px 30px;
+            // }
         }
     }
 }

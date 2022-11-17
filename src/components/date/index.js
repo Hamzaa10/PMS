@@ -9,7 +9,7 @@ const Date = ({ startdate, enddate }) => {
         <div className={style.container}>
             <div className={style.left}>
                 <img className={style.img} src={img} alt="" />
-                <input className={style.input} type="text" placeholder='Search users' size={15} />
+                <input className={style.input} type="text" placeholder='Search users' />
             </div>
             <img className={style.image} src={img1} alt="" />
             <div className={style.right}>

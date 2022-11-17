@@ -17,7 +17,7 @@ const Tabs = ({ title1, title2, title3, title4, title5, title6, title7, title8 }
                 <NavLink className={style.link} to="">{title5}</NavLink>
                 <NavLink className={style.link} to="/workload">{title6}</NavLink>
                 <NavLink className={style.link} to="/status">
-                    {/* <p style={{ color: pathname === "/status" ? "#676A6F" : "", background: pathname === "/status" ? "#ffffff" : "" }}>  */}
+                    {/* <p style={{ color: pathname === "/status" ? "#676A6F" : "", background: pathname === "/status" ? "#ffffff" : "", width: pathname === "/status" ? "110px" : "", height: pathname === "/status" ? "25px" : ""  }}>  */}
                     {title7}
                     {/* </p> */}
                 </NavLink>
