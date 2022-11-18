@@ -20,7 +20,7 @@ const Routing = () => {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path='/members' element={<Members />} />
           <Route path="/setting" element={<MySetting />} />
           <Route path='/workspace' element={<Workspace />} />

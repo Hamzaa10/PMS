@@ -8,7 +8,7 @@ const Tabs4 = ({ title1, title2, title3, title4 }) => {
     const tabsStyle = ({ isActive }) => {
         return {
             color: isActive ? '#676A6F' : 'white',
-            background: isActive ? 'white' : '676A6F',
+            background: isActive ? 'white' : '#676A6F',
             padding: isActive ? '3px 30px' : ''
         }
     }

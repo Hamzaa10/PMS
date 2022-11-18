@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, useLocation } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 import style from './tabs.module.scss'
 
@@ -8,7 +8,7 @@ const Tabs = ({ title1, title2, title3, title4, title5, title6, title7, title8 }
     const tabsStyle = ({ isActive }) => {
         return {
             color: isActive ? '#676A6F' : 'white',
-            background: isActive ? 'white' : '676A6F',
+            background: isActive ? 'white' : '#676A6F',
             padding: isActive ? '3px 30px' : ''
         }
     }
@@ -16,7 +16,7 @@ const Tabs = ({ title1, title2, title3, title4, title5, title6, title7, title8 }
     return (
         <div className={style.container}>
             <div className={style.tabs}>
-                <NavLink style={tabsStyle} className={style.link} to="/home">{title1}</NavLink>
+                <NavLink style={tabsStyle} className={style.link} to="/">{title1}</NavLink>
                 <NavLink style={tabsStyle} className={style.link} to="/list">{title2}</NavLink>
                 <NavLink style={tabsStyle} className={style.link} to="/board">{title3}</NavLink>
                 <NavLink style={tabsStyle} className={style.link} to="/timeline">{title4}</NavLink>
