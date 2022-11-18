@@ -11,7 +11,7 @@ const Sidebar = () => {
         <img src={img} alt="" />
       </div>
       <ul>
-        <Link to="/">Home</Link>
+        <Link to="/home">Home</Link>
         <Link to="/projectname">Project Name</Link>
         <Link to="/setting">Settings </Link>
       </ul>

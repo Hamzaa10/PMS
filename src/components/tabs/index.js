@@ -5,23 +5,25 @@ import style from './tabs.module.scss'
 
 const Tabs = ({ title1, title2, title3, title4, title5, title6, title7, title8 }) => {
 
-    // const { pathname } = useLocation();
+    const tabsStyle = ({ isActive }) => {
+        return {
+            color: isActive ? '#676A6F' : 'white',
+            background: isActive ? 'white' : '676A6F',
+            padding: isActive ? '3px 30px' : ''
+        }
+    }
 
     return (
         <div className={style.container}>
             <div className={style.tabs}>
-                <NavLink className={style.link} to="/">{title1}</NavLink>
-                <NavLink className={style.link} to="/list">{title2}</NavLink>
-                <NavLink className={style.link} to="">{title3}</NavLink>
-                <NavLink className={style.link} to="">{title4}</NavLink>
-                <NavLink className={style.link} to="">{title5}</NavLink>
-                <NavLink className={style.link} to="/workload">{title6}</NavLink>
-                <NavLink className={style.link} to="/status">
-                    {/* <p style={{ color: pathname === "/status" ? "#676A6F" : "", background: pathname === "/status" ? "#ffffff" : "", width: pathname === "/status" ? "110px" : "", height: pathname === "/status" ? "25px" : ""  }}>  */}
-                    {title7}
-                    {/* </p> */}
-                </NavLink>
-                <NavLink className={style.link1} to="">{title8}</NavLink>
+                <NavLink style={tabsStyle} className={style.link} to="/home">{title1}</NavLink>
+                <NavLink style={tabsStyle} className={style.link} to="/list">{title2}</NavLink>
+                <NavLink style={tabsStyle} className={style.link} to="/board">{title3}</NavLink>
+                <NavLink style={tabsStyle} className={style.link} to="/timeline">{title4}</NavLink>
+                <NavLink style={tabsStyle} className={style.link} to="/gantt">{title5}</NavLink>
+                <NavLink style={tabsStyle} className={style.link} to="/workload">{title6}</NavLink>
+                <NavLink style={tabsStyle} className={style.link} to="/status">{title7}</NavLink>
+                <NavLink style={tabsStyle} className={style.link1} to="/calender">{title8}</NavLink>
             </div>
         </div>
     )
