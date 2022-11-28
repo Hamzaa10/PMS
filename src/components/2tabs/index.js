@@ -9,7 +9,8 @@ const Tabs2 = ({ title1, title2 }) => {
         return {
             color: isActive ? '#676A6F' : 'white',
             background: isActive ? 'white' : '#676A6F',
-            padding: isActive ? '3px 30px' : ''
+            padding: isActive ? '3px 30px' : '',
+            borderRadius: isActive ? '5px' : '0px'
         }
     }
 

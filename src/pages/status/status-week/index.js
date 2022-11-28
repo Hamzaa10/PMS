@@ -39,10 +39,7 @@ const StatusWeek = () => {
                             title1="HOURS"
                             title2="TASK" />
                     </div>
-                    <Date
-                        startdate="03-OCT-22"
-                        enddate="09-OCT-22"
-                    />
+                    <Date />
                     <StatusHeader
                         pink={{ background: "rgba(248, 1, 1, 0.5)" }}
                         yellow={{ background: "#F9D30B" }}

@@ -9,7 +9,9 @@ const Tabs = ({ title1, title2, title3, title4, title5, title6, title7, title8 }
         return {
             color: isActive ? '#676A6F' : 'white',
             background: isActive ? 'white' : '#676A6F',
-            padding: isActive ? '3px 30px' : ''
+            padding: isActive ? '3px 30px' : '',
+            borderLeft: isActive ? 'none' : 'none',
+            borderRadius: isActive ? '5px' : '0px'
         }
     }
 

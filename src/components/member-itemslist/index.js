@@ -198,23 +198,5 @@ const itemData = [
         status: "ACTIVE",
         ACTIVE: "10-OCT-2022 ",
         settings: "..."
-    },
-    {
-        NO: "19",
-        name: "XYZ123 ABC",
-        email: "DEV1234567@XYZ.COM",
-        role: "DEVELOPER ^",
-        status: "ACTIVE",
-        ACTIVE: "10-OCT-2022 ",
-        settings: "..."
-    },
-    {
-        NO: "20",
-        name: "XYZ123 ABC",
-        email: "DEV1234567@XYZ.COM",
-        role: "ADMIN ^",
-        status: "ACTIVE",
-        ACTIVE: "10-OCT-2022 ",
-        settings: "..."
-    },
+    }
 ]

@@ -9,7 +9,8 @@ const SettingTabs = ({ title1, title2, title3, title4 }) => {
         return {
             color: isActive ? '#676A6F' : 'white',
             background: isActive ? 'white' : '#676A6F',
-            padding: isActive ? '6px 30px 3px' : ''
+            padding: isActive ? '6px 30px 3px' : '',
+            borderRadius: isActive ? '5px' : ''
         }
     }
 
@@ -19,7 +20,7 @@ const SettingTabs = ({ title1, title2, title3, title4 }) => {
                 <NavLink style={tabsStyle} className={style.link} to="/setting">{title1}</NavLink>
                 <NavLink style={tabsStyle} className={style.link} to="/members">{title2}</NavLink>
                 <NavLink style={tabsStyle} className={style.link} to="/workspace">{title3}</NavLink>
-                <NavLink style={tabsStyle} className={style.link1} to="/projects">{title4}</NavLink>
+                <NavLink style={tabsStyle} className={style.link1} to="/project">{title4}</NavLink>
             </div>
         </div>
     )

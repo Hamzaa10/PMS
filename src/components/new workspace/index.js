@@ -16,9 +16,9 @@ const NewWorkspace = () => {
             <div className={style.color}>
                 <label className={style.label2} htmlFor="">SELECT THEME COLOR</label>
                 <label className={style.label3} htmlFor="">PRIMARY COLOR</label>
-                <div className={style.grey}></div>
+                <input className={style.grey} type="color" />
                 <label className={style.label3} htmlFor="">SECONDARY COLOR</label>
-                <div className={style.white}></div>
+                <input className={style.white} type="color" />
             </div>
             <Textarea lable="SELECT TIME ZONE" />
             <div className={style.invite}>
