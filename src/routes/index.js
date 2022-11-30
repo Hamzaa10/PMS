@@ -17,6 +17,10 @@ import StatusYear from '../pages/status/status=year';
 import StatusHour from '../pages/status/status-hours';
 import StatusTask from '../pages/status/status-task';
 import Project from '../pages/setting/project';
+import Board from '../pages/board';
+import Timeline from '../pages/timeline';
+import Gantt from '../pages/gantt';
+import Calender from '../pages/calender';
 
 const Routing = () => {
   return (
@@ -40,6 +44,10 @@ const Routing = () => {
           <Route path='/hours' element={<StatusHour />} />
           <Route path='/task' element={<StatusTask />} />
           <Route path='/project' element={<Project />} />
+          <Route path='/board' element={<Board />} />
+          <Route path='/timeline' element={<Timeline />} />
+          <Route path='/gantt' element={<Gantt />} />
+          <Route path='/calender' element={<Calender />} />
         </Routes>
       </BrowserRouter>
     </div>
